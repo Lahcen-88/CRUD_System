@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span>Employee Registration</span>
+            <button onclick="openModal()" id="new">Add</i></button>
+        </div>
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job Position</th>
+            <th>Salary</th>
+            <th class="action">Edit</th>
+            <th class="action">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="f-name">Full Name</label>
+          <input id="f-name" type="text" required />
+          <label for="j-position">Job Position</label>
+          <input id="j-position" type="text" required />
+          <label for="salary">Salary</label>
+          <input id="salary" type="number" required />
+          <button id="btnSave">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
