@@ -1,1 +1,1 @@
-# CRUD_System
+This project is a CRUD (Create, Read, Update, Delete) application developed by Lahcen Agouzoul. The CRUD project provides a powerful and flexible interface for managing data, allowing users to perform essential operations on a dataset.
